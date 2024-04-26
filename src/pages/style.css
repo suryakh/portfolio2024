@@ -1,0 +1,41 @@
+
+.mainWrapper {
+    background-size: 101% 100%;
+    background-position: 0px 0px;
+    background-image: linear-gradient(315deg, #00090FFF 0%, #274472 100%);
+}
+.app-containter{
+    margin-top: -80px;
+}
+.template-div {
+    margin-top: -250px;
+}
+.profile-pic {
+    position: absolute;
+    top: 140px;
+    left: 310px;
+    height: 300px;
+    width: 300px;
+    border: 15px solid #5290c9;
+    border-radius: 50%;
+    box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.profile-description {
+    position: absolute;
+    top: 250px;
+    right: 310px;
+    /* color: #ff00ff; */
+    font-family: "Artifika", serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 30px;
+}
+.profile-greeting {
+    background-color: #6F00FF;
+}
+.profile-name {
+    color: white;
+}
+.profile-role {
+    color: #33d6ff;
+}
