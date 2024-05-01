@@ -1,0 +1,14 @@
+.aboutDescription {
+    margin: 10px;
+    font-family: "Artifika", serif;
+    font-weight: lighter;
+    word-wrap:initial;
+    font-style: normal;
+    line-height: 40px;
+    font-size: 20px;
+    color: rgb(211, 211, 211);
+}
+.aboutDescription span {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 50px;
+}

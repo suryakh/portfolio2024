@@ -4,26 +4,35 @@
     background-position: 0px 0px;
     background-image: linear-gradient(315deg, #00090FFF 0%, #274472 100%);
 }
+.dashBoard {
+    /* border: 3px solid red; */
+}
 .app-containter{
     margin-top: -80px;
 }
 .template-div {
-    margin-top: -250px;
+    margin-top: -150px;
 }
-.profile-pic {
-    position: absolute;
-    top: 140px;
-    left: 310px;
-    height: 300px;
-    width: 300px;
+.profileImage {
+    max-width: 100%;
     border: 15px solid #5290c9;
     border-radius: 50%;
     box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.profile-description {
+.profile-content {
     position: absolute;
-    top: 250px;
-    right: 310px;
+    top: 180px;
+    /* left: 510px; */
+    /* height: 300px;
+    width: 300px; */
+    /* border: 15px solid #5290c9;
+    border-radius: 50%; */
+    /* box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.profile-description {
+    /* position: absolute; */
+    /* top: 250px; */
+    /* right: 310px; */
     /* color: #ff00ff; */
     font-family: "Artifika", serif;
     font-weight: lighter;
