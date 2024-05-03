@@ -6,6 +6,7 @@ import './style.css'
 import DashBoard from './dashBoard.tsx'
 import About from './about/about.tsx'
 import Skills from './skills/skills.tsx';
+import Work from './work/work.tsx';
 
 
 
@@ -17,6 +18,7 @@ export const MainPage = () => {
                 <DashBoard />
                 <About />
                 <Skills />
+                <Work />
             </div>
         </Grid>
     )

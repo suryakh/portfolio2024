@@ -6,22 +6,18 @@ import './style.css'
 
 
 const Skills = () => {
-    // const mySkillsOne = ["html", "css", "javascript", "typescript", "react"];
-    // const mySkillsTwo = ["html", "css", "javascript", "typescript", "react"];
-    // const mySkillsThree = ["redux", "nodejs", "expressjs", "nestjs", "flutter", "dart"];
-    // const mySkillsFour = ["redis", "mongodb", "solr", "neo4j", "git"];
-    const mySkillsOne = ["mongodb", "solr"];
-    const mySkillsTwo = ["html", "css","javascript","flutter",];
-    const mySkillsThree = [ "typescript", "react","redux","nodejs","dart"];
-    const mySkillsFour = ["nodejs", "expressjs", "nestjs","redis"];
-    const mySkillsFive = [ "neo4j", "git"];
-
+    const mySkillsOne = ["html", "css",];
+    const mySkillsTwo = ["javascript","typescript", "react","redux"];
+    const mySkillsThree = ["nodejs","expressjs", "nestjs","flutter","dart"];
+    const mySkillsFour = [ "mongodb", "solr","redis","neo4j",];
+    const mySkillsFive = [ "git"];
     return (
         <LineWrapper label={'skills'}>
             <Grid className='skillsWrapper' container>
                 <Grid lg={2}>
                 </Grid>
                 <Grid lg={12} container >
+                    <Grid lg={1}></Grid>
                     <Grid lg={2} marginTop={28}>
                         <Grid lg={12}>
                             {mySkillsOne.map((ele) => <SkillDesign label={ele} />)}

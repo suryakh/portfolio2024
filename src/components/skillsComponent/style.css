@@ -1,6 +1,26 @@
 .mainWrapperSkill {
 margin: 20px;
-padding: 10px;
-height: 120px;
-border: 2px solid red;
+padding: 4px;
+height: 130px;
+border:  0px solid transparent;
+/* border-image: linear-gradient(45deg, #33d6ff ,#6F00FF) 1;
+position: relative;` */
+border-radius: 10px;
+  background-image: linear-gradient(#11233b, #11233b), 
+                    linear-gradient(125deg, #33d6ff, #6F00FF);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.imageWrapper {
+    height: 80px;
+    margin-top: 10px;
+}
+
+.skillLabel {
+    margin: 5px;
+    font-family: "Artifika", serif;
+    font-weight: lighter;
+    word-wrap:initial;
+    font-size: 20px;
+    color: rgb(211, 211, 211);
 }
