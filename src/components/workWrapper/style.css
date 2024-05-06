@@ -1,0 +1,30 @@
+.workWrapper{
+    margin: 30px;
+}
+
+.projectLabel{
+    border-bottom: 5px solid orange ;
+    margin: 0;
+}
+.projectName {
+    font-family: "Artifika", serif;
+    font-weight: lighter;
+    word-wrap:initial;
+    font-size: 40px;
+    color: #d3d3d3;
+}
+.skillLabel {
+    width: 120px;
+    font-family: "Artifika", serif;
+    font-weight: lighter;
+    word-wrap:initial;
+    font-size: 20px;
+    color: #d3d3d3;
+}
+.description {
+    font-family: "Artifika", serif;
+    font-weight: lighter;
+    word-wrap:initial;
+    font-size: 15px;
+    color: #c9c6c6;
+}
